@@ -1,17 +1,25 @@
+
 .details {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    
 }
 
 .detail--column {
     flex-basis: 24%;
     margin: 0 2rem;
     padding: 1rem;
-    border: 1px dotted goldenrod;
+    border: 1px dotted rgb(218, 51, 32);
+    border-radius: 20px;
 }
 
-.orders {
+.venues {
     font-size: 14px;
-    border: 1px dotted goldenrod;
+    border: 1px dotted rgb(218, 51, 32);
+    border-radius: 20px;
+    margin:0px 150px 25px 150px;
+    text-align: center;
+    padding: 1rem;
+    
 }

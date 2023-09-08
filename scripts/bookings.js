@@ -88,14 +88,12 @@ document.addEventListener(
     (clickEvent) => {
         const itemClicked = clickEvent.target
 
-        
-        
-            for (const band of bands){
+        for (const band of bands){
 
-                if (itemClicked.dataset.type==="bookingListItem" && parseInt(itemClicked.dataset.id)===band.id ){
+        if (itemClicked.dataset.type==="bookingListItem" && parseInt(itemClicked.dataset.id)===band.id ){
                     
-                    window.alert(`The ${band.genre} ${band.memberAmount} piece ${band.name} has been around since ${band.yearFormed}`)
-            }
+         window.alert(`The ${band.genre} ${band.memberAmount} piece ${band.name} has been around since ${band.yearFormed}`)
         }
-    }
+     }
+  }
 )
